@@ -1,0 +1,23 @@
+.navbar {
+  width: 100%;
+}
+
+.navbar header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 2rem;
+  border-bottom: 1px solid rgba(40, 40, 40, 0.24);
+  background: var(--background-nav);
+}
+
+.logo span {
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.logo span:hover {
+  color: var(--primary);
+  transition: var(--transition-03);
+}
+
