@@ -5,19 +5,29 @@
 .navbar header {
   display: flex;
   justify-content: space-between;
-  padding: 1.2rem 2rem;
+  align-items: center;
+  padding: 8px 3rem;
   border-bottom: 1px solid rgba(40, 40, 40, 0.24);
   background: var(--background-nav);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
-.logo span {
-  font-size: 24px;
-  font-weight: 700;
-  cursor: pointer;
+.navbar header .nav-menu {
+  display: flex;
+  gap: 32px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
-.logo span:hover {
-  color: var(--primary);
-  transition: var(--transition-03);
+.navbar header .nav-menu li {
+    color: var(--font-color);
 }
 
+.navbar header .nav-menu li:hover {
+    color: var(--primary);
+    transition: var(--transition-03);
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 3px;
+}

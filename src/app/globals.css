@@ -3,9 +3,13 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-color: #000;
   --background-nav: #fff;
-  --primary: hsl(0, 100%, 52%);
+  --primary: hsl(0, 83%, 49%);
+  --transition-02: 0.2s;
   --transition-03: 0.3s;
+  --transition-04: 0.4s;
+  --transition-05: 0.5s;
 }
 
 @theme inline {
