@@ -16,10 +16,16 @@
     flex-direction: column;
 }
 
+.hero .left img {
+    margin-top: -56px;
+    margin-bottom: 32px;
+}
+
 .hero .left h2 {
     font-size: 48px;
     font-weight: 700;
     color: var(--primary);
+    margin-bottom: 24px;
 }
 
 .hero .left span {
