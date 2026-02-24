@@ -9,7 +9,7 @@ export default function Navbar() {
       <header>
 
         <div className="logo">
-          <Image src="/logo.png" alt="logo" width={70} height={70} />
+          <Image src="/logo.png" alt="logo" width={60} height={60} />
         </div>
 
         <ul className="nav-menu">
@@ -20,7 +20,7 @@ export default function Navbar() {
             <Link href="#tentang-kami">Tentang Kami</Link>
           </li>
           <li>
-            <Link href="#menu">Menu</Link>
+            <Link href="#menu">Katalog</Link>
           </li>
         </ul>
 

@@ -4,7 +4,8 @@
   --background: #ffffff;
   --foreground: #171717;
   --font-color: #000;
-  --background-nav: #fff;
+  --background-nav: rgba(255, 255, 255, 0.85);
+  --color-white: #fff;
   --primary: hsl(0, 83%, 49%);
   --transition-02: 0.2s;
   --transition-03: 0.3s;

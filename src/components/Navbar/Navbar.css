@@ -1,16 +1,18 @@
 .navbar {
   width: 100%;
+  background: var(--background-nav);
+  backdrop-filter: blur(6px);
+  position: fixed;
+  z-index: 999;
 }
 
 .navbar header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   padding: 10px 3rem;
-  border-bottom: 1px solid rgba(40, 40, 40, 0.24);
-  background: var(--background-nav);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(40, 40, 40, 0.32);
 }
 
 .navbar header .nav-menu {
@@ -22,26 +24,26 @@
 }
 
 .navbar header .nav-menu li {
-    color: var(--font-color);
+  color: var(--font-color);
 }
 
 .navbar header .nav-menu li:hover {
-    color: var(--primary);
-    transition: var(--transition-03);
-    text-decoration: underline;
-    text-underline-offset: 6px;
-    text-decoration-thickness: 3px;
+  color: var(--primary);
+  transition: var(--transition-03);
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 3px;
 }
 
 .contact-cta {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    background: var(--primary);
-    padding: 8px 16px;
-    color: white;
-    font-weight: 600;
-    border-radius: 8px;
-    font-size: 14px;
-    box-shadow: 1px 1px 6px var(--primary);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  background: var(--primary);
+  padding: 8px 16px;
+  color: var(--color-white);
+  font-weight: 600;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: 1px 1px 6px var(--primary);
 }
