@@ -7,26 +7,22 @@ export default function Navbar() {
     <nav className="navbar">
       <header>
         <div className="logo">
-          <Image src="/logo.png"
-           alt="logo"
-           width={70}
-           height={70} />
+          <Image src="/logo.png" alt="logo" width={70} height={70} />
         </div>
 
         <ul className="nav-menu">
           <li>
-            <Link href="#home">Home</Link>
-          </li>
-          <li>
-            <Link href="#menu">Menu</Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
             <Link href="#tentang-kami">Tentang Kami</Link>
           </li>
           <li>
-            <Link href="#kontak">Kontak</Link>
+            <Link href="#menu">Menu</Link>
           </li>
         </ul>
+
+        <button className="contact-cta">Kontak Kami</button>
       </header>
     </nav>
   );

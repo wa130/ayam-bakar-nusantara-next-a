@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 3rem;
+  padding: 10px 3rem;
   border-bottom: 1px solid rgba(40, 40, 40, 0.24);
   background: var(--background-nav);
   backdrop-filter: blur(8px);
@@ -15,9 +15,10 @@
 
 .navbar header .nav-menu {
   display: flex;
-  gap: 32px;
+  gap: 56px;
   font-size: 16px;
   font-weight: 600;
+  transform: translateX(-140px);
 }
 
 .navbar header .nav-menu li {
@@ -30,4 +31,13 @@
     text-decoration: underline;
     text-underline-offset: 6px;
     text-decoration-thickness: 3px;
+}
+
+.contact-cta {
+    background: var(--primary);
+    padding: 8px 16px;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px var(--primary);
 }
