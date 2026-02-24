@@ -49,6 +49,11 @@
     border-radius: 16px;
 }
 
+.hero .left .cta-btn:hover {
+    transform: scale(1.1);
+    transition: var(--transition-04);
+}
+
 .btn-primary {
     display: flex;
     align-items: center;

@@ -47,3 +47,8 @@
   font-size: 14px;
   box-shadow: 1px 1px 6px var(--primary);
 }
+
+.contact-cta:hover {
+  transform: scale(1.1);
+    transition: var(--transition-04);
+}
