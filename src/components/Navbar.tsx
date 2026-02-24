@@ -1,11 +1,13 @@
 import "./Navbar/Navbar.css";
 import Link from "next/link";
 import Image from "next/image";
+import { Icons } from '@/lib/Icons'
 
 export default function Navbar() {
   return (
     <nav className="navbar">
       <header>
+
         <div className="logo">
           <Image src="/logo.png" alt="logo" width={70} height={70} />
         </div>
@@ -22,7 +24,7 @@ export default function Navbar() {
           </li>
         </ul>
 
-        <button className="contact-cta">Kontak Kami</button>
+        <button className="contact-cta">hubungi Kami <Icons.ArrowRight size={18} /> </button>
       </header>
     </nav>
   );
