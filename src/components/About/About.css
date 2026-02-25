@@ -9,7 +9,7 @@
     font-size: 32px;
     font-weight: 700;
     color: var(--primary);
-    margin-bottom: 64px;
+    margin-bottom: 32px;
     text-decoration: underline;
     text-decoration-thickness: 5px;
     text-underline-offset: 16px;
@@ -35,17 +35,26 @@
     font-weight: 600;
 }
 
+.about .container .content p {
+    margin-bottom: 8px;
+}
+
 .about .container img {
     border-radius: 16px;
 }
 
+.about .container img:hover {
+    transform: scale(1.04);
+    transition: var(--transition-04);
+}
 
-@keyframes in-left {
-    from {
-        transform: translateX(-20%);
-    }
+.about .container .content .cta-about-menu {
+    padding: 8px 16px;
+    margin-top: 24px;
+    border-radius: 8px;
+    font-weight: 600;
+}
 
-    to {
-        transform: translateX(0%);
-    }
+.about .container .content .cta-about-menu:hover {
+    transform: scale(1.08);
 }

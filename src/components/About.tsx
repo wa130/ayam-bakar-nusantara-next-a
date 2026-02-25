@@ -11,13 +11,15 @@ export default function About() {
             <h2>Tentang Ayam bakar Kami</h2>
             <p>
               Ayam bakkar tradisional dengan bumbu nusantara yang dibakar
-              langsung di atas arang, bukan oven
+              langsung di atas arang, bukan oven.
             </p>
             <p>
               Kami memilih ayam segar dan kualitas terbaik setiap hari dan bumbu
               yang diracik sendiri agar rasa tetap konsisten, beraroma asap, dan
               meresap hingga kedalam.
             </p>
+
+            <button className="cta-about-menu btn-primary">Lihat Menu</button>
           </div>
 
           <div className="image">
