@@ -1,6 +1,6 @@
 .hero {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background: url('/cuy.jpg');
     background-size: cover;
     background-position: center;
@@ -9,6 +9,7 @@
     align-items: center;
     padding: 3rem;
     transform: translateY(67px);
+    margin-bottom: 110px;
 }
 
 .hero .left {
