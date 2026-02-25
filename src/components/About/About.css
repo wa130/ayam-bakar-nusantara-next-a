@@ -9,7 +9,7 @@
     font-size: 32px;
     font-weight: 700;
     color: var(--primary);
-    margin-bottom: 70px;
+    margin-bottom: 64px;
     text-decoration: underline;
     text-decoration-thickness: 5px;
     text-underline-offset: 16px;
@@ -20,16 +20,32 @@
     align-items: center;
     justify-content: center;
     gap: 70px;
-    padding: 3rem 1rem;
+    padding: 3rem 2rem;
 }
 
 .about .container .content {
     display: block;
     width: 20rem;
+    animation: in-left 0.7s ease-in;
 }
 
 .about .container .content h2 {
     margin-bottom: 24px;
     font-size: 24px;
     font-weight: 600;
+}
+
+.about .container img {
+    border-radius: 16px;
+}
+
+
+@keyframes in-left {
+    from {
+        transform: translateX(-20%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
 }
