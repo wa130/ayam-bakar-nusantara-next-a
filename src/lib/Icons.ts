@@ -1,7 +1,9 @@
 import {
-    ArrowRight
+    ArrowRight,
+    Menu
 } from 'lucide-react'
 
 export const Icons = {
-    ArrowRight
+    ArrowRight,
+    Hamburger: Menu
 }

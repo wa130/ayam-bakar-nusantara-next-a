@@ -52,3 +52,30 @@
   transform: scale(1.1);
     transition: var(--transition-04);
 }
+
+.hamburger-menu {
+  display: none;
+}
+
+.nav-mobile {
+  display: none;
+  position: absolute;
+}
+
+@media (max-width: 768px) {
+  .navbar header .nav-menu {
+    display: none;
+  }
+
+  .contact-cta {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .nav-mobile {
+    display: block;
+  }
+}
