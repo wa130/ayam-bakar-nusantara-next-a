@@ -57,4 +57,5 @@
 
 .about .container .content .cta-about-menu:hover {
     transform: scale(1.08);
+    transition: var(--transition-04);
 }
