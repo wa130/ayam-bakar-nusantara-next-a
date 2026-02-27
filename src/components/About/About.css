@@ -2,6 +2,7 @@
     width: 100%;
     height: 100vh;
     padding: 5rem 14rem;
+    background: var(--accention);
 }
 
 .about h1 {
@@ -13,6 +14,7 @@
     text-decoration: underline;
     text-decoration-thickness: 5px;
     text-underline-offset: 16px;
+    margin-top: 32px;
 }
 
 .about .container {
